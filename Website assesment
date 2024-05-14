@@ -4,11 +4,11 @@
 <head>
 	<meta name="viewport" content="width=1220">
 	<meta name="robots" content="noyaca" />
-	  <base href="https://www.ztmg.by/pilnye-diski-julia" />
+	  <base href="https://www.ztmg.by/pilnye-diski-tenryu" />
   <meta charset="UTF-8" />
   <meta name="description" content="первый поставщик металлорежущего, пневматического инструмента и станочной оснастки" />
-  <title>Пильные диски Julia</title>
-  <link href="/pilnye-diski-julia" rel="canonical" />
+  <title>Пильные диски TENRYU</title>
+  <link href="/pilnye-diski-tenryu" rel="canonical" />
   <link href="/templates/ot_furnite/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon" />
   <link rel="stylesheet" href="/templates/ot_furnite/css/vmsite-ltr.css" type="text/css" />
   <link rel="stylesheet" href="/components/com_virtuemart/assets/css/facebox.css" type="text/css" />
@@ -24,25 +24,109 @@
   <link rel="stylesheet" href="https://www.ztmg.by/modules/mod_omgmenu/css/omgmenu_mobile.css" type="text/css" />
   <style type="text/css">
 
-.noscript div#offlajn-accordion-128-1-container dl.level1 dl{
-  position: static;
-}
-.noscript div#offlajn-accordion-128-1-container dl.level1 dd.parent{
-  height: auto !important;
-  display: block;
-  visibility: visible;
-}
+     .header-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    /* Remove margin between telephone number, email, and future content */
+    .custom.toptelz p {
+        margin: 0; /* Remove default margin */
+    }
 
 
-	.ot-menu a {
-		
-		
-	}
-	.ot-menu a:hover {
-		
-	}
+    #search-container {
+        position: relative;
+        display: inline-block; /* Ensures the container takes only as much width as necessary */
+        margin-top: 20px;
+    }
 
-  </style>
+    #search-bar {
+        padding-right: 30px; /* Adjust padding to accommodate the icon */
+    }
+
+    #search-icon-container {
+        position: absolute;
+        top: 12%;
+        right: 10px; 
+        transform: translateY(-50%);
+    }
+
+    #search-icon {
+        width: 15px; /* Adjust icon size as needed */
+        height: auto;
+    }
+
+    .ot-mod-inner {
+        display: flex;
+        align-items: center;
+    }
+
+    .ot-mod-outer {
+        margin-bottom: 0; 
+    }
+
+    .noscript div#offlajn-accordion-128-1-container dl.level1 dl{
+        position: static;
+    }
+
+    .noscript div#offlajn-accordion-128-1-container dl.level1 dd.parent{
+        height: auto !important;
+        display: block;
+        visibility: visible;
+    }
+   
+    /* Nav menu item styles */
+    .item-text {
+        font-size: 14px; 
+        text-decoration: none; /* Remove default underline */
+        color: #000; /* Set default text color */
+        transition: color 0.3s; /* Smooth transition for color change */
+    }
+
+    /* Change color of menu items on hover */
+    .item-text:hover {
+        color: rgb(231, 241, 255); 
+        
+    }
+
+    /* Remove default list style */
+    .otmenu-wrapper-i {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    /* Display menu items inline */
+    .otmenu-wrapper-i {
+        display: inline-block;
+        margin-right: 5px; /* Adjust margin between menu items */
+    }
+
+    /* This styling doesn't work */
+    .category_description {
+    width: 100%; /* Adjust width as needed */
+    max-width: 1700px; 
+    margin: 0 auto; /* Center the container */
+    }
+
+    img[src="/images/slider/imgonline-com-ua-Resize-alXOwepy62iOB.jpg"] {
+    width: 1800px; 
+    height: 1700px; 
+    display: block; /* Remove any extra spacing */
+    margin: 0 auto; /* Center the image horizontally */
+    }
+
+    /* Media queries */
+    @media screen and (max-width: 767px) {
+            .ot_logo img {
+            width: 100px; /* Adjust image width for smaller screens */
+        }
+            .category_description img {
+            max-width: 100%; /* Ensure images in category description fit within container */
+            height: auto; /* Maintain aspect ratio */
+        }
+    }
+  </style></head>	
   <script src="/media/jui/js/respond.min.js" type="text/javascript"></script>
   <script src="/media/jui/js/jquery.min.js" type="text/javascript"></script>
   <script src="/media/jui/js/jquery-noconflict.js" type="text/javascript"></script>
@@ -59,7 +143,7 @@
   <script type="text/javascript">
 
 //<![CDATA[
-		vmSiteurl = 'https://www.ztmg.by/' ;
+vmSiteurl = 'https://www.ztmg.by/' ;
 vmLang = "";
 vmCartText = ' добавлен в корзину' ;
 vmCartError = 'Ошибка обновления корзины' ;
@@ -67,7 +151,6 @@ loadingImage = '/components/com_virtuemart/assets/images/facebox/loading.gif' ;
 closeImage = '/components/com_virtuemart/assets/images/facebox/closelabel.png' ; 
 Virtuemart.addtocart_popup = '0' ; 
 faceboxHtml = '<div id="facebox" style="display:none;"><div class="popup"><div class="content"></div> <a href="#" class="close"></a></div></div>'  ;
-
 //]]>
 
 
@@ -79,191 +162,178 @@ faceboxHtml = '<div id="facebox" style="display:none;"><div class="popup"><div c
 			});
 		});
 
-jQuery(document).ready(function () {
-	jQuery('.orderlistcontainer').hover(
-		function() { jQuery(this).find('.orderlist').stop().show()},
-		function() { jQuery(this).find('.orderlist').stop().hide()}
-	)
-});
+        jQuery(document).ready(function () {
+            jQuery('.orderlistcontainer').hover(
+                function() { jQuery(this).find('.orderlist').stop().show()},
+                function() { jQuery(this).find('.orderlist').stop().hide()}
+            )
+        });
 
 
-  accordionDojo.addOnLoad(accordionDojo, function(){
-    var dojo = this;
-    dojo.query('.noscript').removeClass('noscript');
-    new AccordionMenu({
-      node: dojo.byId('offlajn-accordion-128-1'),
-      instance: 'offlajn-accordion-128-1',
-      classPattern: /off-nav-[0-9]+/,
-      mode: 'onclick', 
-      interval: '500', 
-      level: 1,
-      easing:  dojo.fx.easing.cubicInOut,
-      closeeasing:  dojo.fx.easing.cubicInOut,
-      accordionmode:  1
-    })
-  });
+        accordionDojo.addOnLoad(accordionDojo, function(){
+            var dojo = this;
+            dojo.query('.noscript').removeClass('noscript');
+            new AccordionMenu({
+            node: dojo.byId('offlajn-accordion-128-1'),
+            instance: 'offlajn-accordion-128-1',
+            classPattern: /off-nav-[0-9]+/,
+            mode: 'onclick', 
+            interval: '500', 
+            level: 1,
+            easing:  dojo.fx.easing.cubicInOut,
+            closeeasing:  dojo.fx.easing.cubicInOut,
+            accordionmode:  1
+            })
+        });
   
   </script>
 
-		<link rel="apple-touch-icon-precomposed" href="/templates/ot_furnite/images/apple-touch-icon-57x57-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/templates/ot_furnite/images/apple-touch-icon-57x57-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/templates/ot_furnite/images/apple-touch-icon-72x72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/templates/ot_furnite/images/apple-touch-icon-114x114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/templates/ot_furnite/images/apple-touch-icon-144x144-precomposed.png">
-						
-	<!--[if lt IE 9]>
-				<script src="/media/jui/js/html5.js"></script>
-				
-				<script src="/media/jui/js/PIE_IE678.js"></script>
-			<![endif]-->
-	<!--[if IE 9]>
-				<script src="/media/jui/js/PIE_IE9.js"></script>
-			<![endif]-->
-	<script type="text/javascript">
-			</script>
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/templates/ot_furnite/images/apple-touch-icon-144x144-precomposed.png">	
 	
-		
-		
-	
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+        <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-55744939-1', 'auto');
-  ga('send', 'pageview');
+        ga('create', 'UA-55744939-1', 'auto');
+        ga('send', 'pageview');
 
-</script>
+        </script>
 	
 	
-</head>
-<body id="ot-body" class="oBody ltr homepage">
-		<div class="body-bg">
-		<div class="wrapper">
-							<div class="oTopBlock">
-					<div class="container">
-						<div class="oPosBlock row-fluid top1">
-<div class="oPos top1-1 span3 visible-phone visible-tablet visible-desktop">
-<div id="mod-101" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
-
-<div class="custom"  >
-	<div class="ot_logo"><a href="http://www.ztmg.by/"><img src="/images/logo.png" border="0" alt="" /></a></div></div>
-</div></div></div>
+<div class="body-bg">
+    <div class="wrapper">
+        <div class="oTopBlock">
+            <div class="container">
+                <div class="oPosBlock row-fluid top1">
+                    <div class="oPos top1-1 span3 visible-phone visible-tablet visible-desktop">
+                        <div id="mod-101" class="ot-mod-outer standard module">
+                            <div class="ot-mod-inner clearfix">
+                                <div class="mod-content clearfix">
+                                    <div class="custom">
+                                        <div class="ot_logo">
+                                            <a href="http://www.ztmg.by/">
+                                                <img src="/images/logo.png" width="170px" />
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="oPos top1-2 span9 visible-phone visible-tablet visible-desktop">
+                        <!-- Container to position search and nav menu -->
+                        <div class="header-content">
+                            <div id="mod-100" class="ot-mod-outer standard module mainmenu">
+                                <div class="ot-mod-inner clearfix">
+                                    <div class="mod-content clearfix">
+                                        <div class="otmenu-wrapper otmenu-desk-wrapper visible-desktop" id="otmenu-desk-wrapper-100">
+                                            <div class="otmenu-wrapper-i"> 
+                                                <ul class="ot-menu ot-dropdown-100 menu">
+                                                    <li id="omi-435" class="ot-menu-item level1 current active first notColumn">
+                                                        <!-- Edited the font-size -->
+                                                       <div><a class="item-link level1" href="/"><span class="item-text" style="font-size: 16px;"> Главная страница</span></a></div>
+                                                    </li>
+                                                    <li id="omi-622" class="ot-menu-item level1 notColumn">
+                                                        <div><a class="item-link level1" href="/o-kompanii"><span class="item-text" style="font-size: 16px; ">О компании</span></a></div>
+                                                    </li>
+                                                    <li id="omi-623" class="ot-menu-item level1 notColumn">
+                                                        <div><a class="item-link level1" href="/dokumenty-i-sertifikaty"><span class="item-text" style="font-size: 16px;">Документы и сертификаты</span></a></div>
+                                                    </li>
+                                                    <li id="omi-575" class="ot-menu-item level1 notColumn">
+                                                        <div><a class="item-link level1" href="/oplata"><span class="item-text" style="font-size: 16px;" >Оплата</span></a></div>
+                                                    </li>
+                                                    <li id="omi-576" class="ot-menu-item level1 notColumn">
+                                                        <div><a class="item-link level1" href="/dostavka"><span class="item-text" style="font-size: 16px;">Доставка</span></a></div>
+                                                    </li>
+                                                    <li id="omi-574" class="ot-menu-item level1 last notColumn">
+                                                        <div><a class="item-link level1" href="/kontakty"><span class="item-text" style="font-size: 16px;">Контакты</span></a></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Addig search field -->
+                            <div id="search-container">
+                                <input type="text" id="search-bar" placeholder="Поиск..." onkeyup="searchFunction()">
+                                <div id="search-icon-container">
+                                    <img id="search-icon" src="c:\Users\troble_tori\Downloads\magnifiying-glass_93642.png" >
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        <!-- Changes to section with telephone number, email -->
+                        <div class="custom toptelz">
+                            <p style="text-align: right;">
+                                <img src="/images/phone.png"  style="vertical-align: middle;" />
+                                <!-- Changing the font-size -->
+                                <span style="font-size: 14px;">Телефон/факс: +375 17 392-98-00 /01</span> 
+                                <img src="/images/mail.png" style="vertical-align: middle;" /><span style="font-size: 13px;">ztmgrup@yandex.ru</span>
+                            </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="oPos top1-2 span9 visible-phone visible-tablet visible-desktop">
-<div id="mod-120" class="ot-mod-outer standard module topnaz"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
 
-<div class="custom topnaz"  >
-	<p style="text-align: right;"><strong>ООО «ЗТМ Групп»</strong> - первый поставщик в РБ металлорежущего, пневматического инструмента и станочной оснастки</p></div>
-</div></div></div><div id="mod-149" class="ot-mod-outer standard module toptelz"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
-
-<div class="custom toptelz"  >
-	<p style="text-align: right;"><img src="/images/phone.png" border="0" style="vertical-align: middle;" />Телефон/факс: +375 17 <span>392-98-00 /01</span><br /><img src="/images/A1.jpg" border="0" width="20" height="20" />+375 29 694-19-62 <img src="/images/A1.jpg" border="0" width="20" height="20" />+375 29 313-66-10<br /><img src="/images/mail.png" border="0" style="vertical-align: middle;" /><span style="font-size: 13.6px;">ztmgrup@yandex.ru</span></p>
-<p class="caption" style="text-align: right;"><span style="font-size: 13.6px;"> </span></p>
-<p class="caption" style="text-align: right;"><span style="font-size: 13.6px;"><span>                                                                                                               <strong><span style="text-decoration: underline;">Работаем с юридическими и физическими лицами!</span>                                                                                      </strong></span><span style="text-decoration: underline;"><strong>С физическим лиц оплата производится по безналичному расчету с применением банковской платежной  карточки (VISA, MASTERCARD, БЕЛКАРД, МИР и т.д.)</strong></span></span></p></div>
-</div></div></div>
-</div>
-</div>						<div class="oPosBlock row-fluid top2">
-<div class="oPos top2-1 span12 visible-phone visible-tablet visible-desktop">
-<div id="mod-100" class="ot-mod-outer standard module mainmenu pull-left"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix"><div class="otmenu-wrapper otmenu-desk-wrapper visible-desktop" id="otmenu-desk-wrapper-100">
-	<div class="otmenu-wrapper-i"> 
-		<ul class="ot-menu ot-dropdown-100 menu " >
-		<li id="omi-435"  class="ot-menu-item level1 current active first notColumn" style="z-index:35000;"><div><a class="item-link level1"  href="/"  ><span class="item-text ">Главная страница</span></a></div></li><li id="omi-622"  class="ot-menu-item level1 notColumn" style="z-index:34999;"><div><a class="item-link level1"  href="/o-kompanii"  ><span class="item-text ">О компании</span></a></div></li><li id="omi-623"  class="ot-menu-item level1 notColumn" style="z-index:34998;"><div><a class="item-link level1"  href="/dokumenty-i-sertifikaty"  ><span class="item-text ">Документы и сертификаты</span></a></div></li><li id="omi-574"  class="ot-menu-item level1 last notColumn" style="z-index:34997;"><div><a class="item-link level1"  href="/kontakty"  ><span class="item-text ">Контакты</span></a></div></li></ul>
-	</div>
-	<script type="text/javascript">
-	
-	jQuery(document).ready(function($) {
-		$("ul.ot-dropdown-100").otmenu({
-			direction: 'ltr',
-			// animation: opacity:"show", height:"show" or combined of them
-			animation: {opacity:"show",height:"show"},
-			// speed: 200 or 'fast', 400 or 'normal', 600 or 'slow'
-			speed: 'normal' 
-		});
-		
-	});
-
-</script>
-</div>
-<div class="otmenu-wrapper otmenu-mobile-wrapper hidden-desktop" id="otmenu-mobile-wrapper-100">
-	<div class="otmenu-wrapper-i">
-		<a class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".ot-sliding-100">
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-			<span class="icon-bar"></span>
-		</a>
-		<div class="clearfix"></div>
-		<ul class="ot-menu ot-sliding-100 collapse menu " >
-		<li id="ommi-435"  class="ot-menu-item level1 current active first notColumn"><div><a class="item-link level1"  href="/"  ><span class="item-text ">Главная страница</span></a></div></li><li id="ommi-622"  class="ot-menu-item level1 notColumn"><div><a class="item-link level1"  href="/o-kompanii"  ><span class="item-text ">О компании</span></a></div></li><li id="ommi-623"  class="ot-menu-item level1 notColumn"><div><a class="item-link level1"  href="/dokumenty-i-sertifikaty"  ><span class="item-text ">Документы и сертификаты</span></a></div></li><li id="ommi-574"  class="ot-menu-item level1 last notColumn"><div><a class="item-link level1"  href="/kontakty"  ><span class="item-text ">Контакты</span></a></div></li></ul>
-	</div>
-	
-	<script type="text/javascript">
-	
-	jQuery(document).ready(function($) {
-		$("ul.ot-sliding-100").otslmenu({
-			speed: 'normal',
-			openedHandlerClass: 'icon-minus-sign',
-			closedHandlerClass: 'icon-plus-sign'
-		});
-		
-	});
-	
-</script>
-</div>
-</div></div></div>
-</div>
-</div>																							</div>
-				</div>
-						
-						
-			<div class="oMainBlock">
-				<div class="container" style="padding:5px 5px 0px 5px">
-															<div class="oPosBlock row-fluid sidebar">
-<div class="oPos sidebar-1 span3 visible-phone visible-tablet visible-desktop">
-<div id="mod-128" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix"><div class="noscript">
-<div id="offlajn-accordion-128-1-container">
-  <div class="offlajn-accordion-128-1-container-inner">
-        <div style="overflow: hidden; position: relative;">
-    <dl id="offlajn-accordion-128-1" class="level1">
+<div class="oMainBlock">
+    <!-- Changes in padding -->
+	<div class="container" style="padding:0px 3px 0px 7px">
+			<div class="oPosBlock row-fluid sidebar">
+            <div class="oPos sidebar-1 span3 visible-phone visible-tablet visible-desktop">
+            <div id="mod-128" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix"><div class="noscript">
+            <div id="offlajn-accordion-128-1-container">
+            <div class="offlajn-accordion-128-1-container-inner">
+            <div style="overflow: hidden; position: relative; width: 255px;">
+            <dl id="offlajn-accordion-128-1" class="level1">
   <dt class="level1 off-nav-235 notparent   first">
-  
-        <a href="/tverdosplavnyj-instrument-palbit-s-a"><span class="outer"><span class="inner"><span>Твердосплавный инструмент Palbit S.A.</span></span></span></a>    
+  <!-- Changes in letter-spacing and line-height in menu for inner components-->
+        <a href="/tverdosplavnyj-instrument-palbit-s-a"><span class="outer"><span class="inner" style="letter-spacing: 1px;  line-height: 1;"><span>Твердосплавный инструмент Palbit S.A.</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-235 notparent   first">
       </dd>
-    <dt class="level1 off-nav-204 notparent  ">
+    <dt class="level1 off-nav-204 notparent opened active">
   
-        <a href="/pilnye-diski-tenryu"><span class="outer"><span class="inner"><span>Пильные диски TENRYU</span></span></span></a>    
+        <a href="/pilnye-diski-tenryu"><span class="outer"><span class="inner"  style="letter-spacing: 1px;"><span>Пильные диски TENRYU</span></span></span></a>    
   </dt>
-  <dd class="level1 off-nav-204 notparent  ">
+  <dd class="level1 off-nav-204 notparent opened active">
       </dd>
-    <dt class="level1 off-nav-234 notparent opened active">
+    <dt class="level1 off-nav-234 notparent  ">
   
-        <a href="/pilnye-diski-julia"><span class="outer"><span class="inner"><span>Пильные диски Julia</span></span></span></a>    
+        <a href="/pilnye-diski-julia"><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Пильные диски Julia</span></span></span></a>    
   </dt>
-  <dd class="level1 off-nav-234 notparent opened active">
+  <dd class="level1 off-nav-234 notparent  ">
       </dd>
     <dt class="level1 off-nav-237 notparent  ">
   
-        <a href="/patrony-tokarnye-fuerda-beltapaz"><span class="outer"><span class="inner"><span>Патроны токарные FUERDA (аналог БелТАПАЗ)</span></span></span></a>    
+        <a href="/patrony-tokarnye-fuerda-beltapaz"><span class="outer"><span class="inner" style=" line-height: 1;"><span>Патроны токарные FUERDA (аналог БелТАПАЗ)</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-237 notparent  ">
       </dd>
     <dt class="level1 off-nav-238 notparent  ">
   
-        <a href="/rezbonareznoj-instrument-izar-ispaniya"><span class="outer"><span class="inner"><span>Профессиональный металлорежущий инструмент IZAR</span></span></span></a>    
+        <a href="/rezbonareznoj-instrument-izar-ispaniya"><span class="outer"><span class="inner" style="letter-spacing: 1.3px;"><span>Профессиональный металлорежущий инструмент IZAR</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-238 notparent  ">
       </dd>
     <dt class="level1 off-nav-239 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Тиски</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Тиски</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-239 parent  ">
     <dl  class="level2">
   <dt class="level2 off-nav-240 notparent   first">
   
-        <a href="/tiski/tiski-slesarnye-povorotnye"><span class="outer"><span class="inner"><span>Тиски слесарные поворотные</span></span></span></a>    
+        <a href="/tiski/tiski-slesarnye-povorotnye"><span class="outer"><span class="inner" ><span>Тиски слесарные поворотные</span></span></span></a>    
   </dt>
   <dd class="level2 off-nav-240 notparent   first">
       </dd>
@@ -311,7 +381,7 @@ jQuery(document).ready(function () {
       </dd>
     <dt class="level2 off-nav-248 notparent  ">
   
-        <a href="/tiski/zazhimnye-prisposobleniya-mashinnye-dvojnogo-dejstviya"><span class="outer"><span class="inner"><span>Тиски машинные двойного действия Q93</span></span></span></a>    
+        <a href="/tiski/zazhimnye-prisposobleniya-mashinnye-dvojnogo-dejstviya"><span class="outer"><span class="inner" ><span>Тиски машинные двойного действия Q93</span></span></span></a>    
   </dt>
   <dd class="level2 off-nav-248 notparent  ">
       </dd>
@@ -348,7 +418,7 @@ jQuery(document).ready(function () {
   </dl></dd>
   <dt class="level1 off-nav-254 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Столы поворотные</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Столы поворотные</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-254 parent  ">
     <dl  class="level2">
@@ -385,20 +455,20 @@ jQuery(document).ready(function () {
       </dd>
     <dt class="level2 off-nav-260 notparent   last">
   
-        <a href="/golovki-delitelnye/golovki-delitelnye-serii-f2-i-f2-6"><span class="outer"><span class="inner"><span>Головки делительные серии F2 и F2-6</span></span></span></a>    
+        <a href="/golovki-delitelnye/golovki-delitelnye-serii-f2-i-f2-6"><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Головки делительные серии F2 и F2-6</span></span></span></a>    
   </dt>
   <dd class="level2 off-nav-260 notparent   last">
       </dd>
   </dl></dd>
   <dt class="level1 off-nav-212 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Метчики</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Метчики</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-212 parent  ">
     <dl  class="level2">
   <dt class="level2 off-nav-213 notparent   first">
   
-        <a href="/metchiki/metchiki-mashinnye-i-ruchnye-gost-3266-81"><span class="outer"><span class="inner"><span>Метчики машинные и ручные ГОСТ 3266-81</span></span></span></a>    
+        <a href="/metchiki/metchiki-mashinnye-i-ruchnye-gost-3266-81"><span class="outer"><span class="inner" ><span>Метчики машинные и ручные ГОСТ 3266-81</span></span></span></a>    
   </dt>
   <dd class="level2 off-nav-213 notparent   first">
       </dd>
@@ -411,7 +481,7 @@ jQuery(document).ready(function () {
   </dl></dd>
   <dt class="level1 off-nav-205 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Сверла</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Сверла</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-205 parent  ">
     <dl  class="level2">
@@ -454,7 +524,7 @@ jQuery(document).ready(function () {
   </dl></dd>
   <dt class="level1 off-nav-215 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Плашки круглые</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Плашки круглые</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-215 parent  ">
     <dl  class="level2">
@@ -467,7 +537,7 @@ jQuery(document).ready(function () {
   </dl></dd>
   <dt class="level1 off-nav-217 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Фрезы</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Фрезы</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-217 parent  ">
     <dl  class="level2">
@@ -504,7 +574,7 @@ jQuery(document).ready(function () {
   </dl></dd>
   <dt class="level1 off-nav-227 parent  ">
   
-        <a><span class="outer"><span class="inner"><span>Пневматический инструмент</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Пневматический инструмент</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-227 parent  ">
     <dl  class="level2">
@@ -541,7 +611,7 @@ jQuery(document).ready(function () {
   </dl></dd>
   <dt class="level1 off-nav-223 parent   last">
   
-        <a><span class="outer"><span class="inner"><span>Твердосплавный инструмент</span></span></span></a>    
+        <a><span class="outer"><span class="inner" style="letter-spacing: 1px;"><span>Твердосплавный инструмент</span></span></span></a>    
   </dt>
   <dd class="level1 off-nav-223 parent   last">
     <dl  class="level2">
@@ -579,845 +649,52 @@ jQuery(document).ready(function () {
 <div class="oPos maincontent">
 <div class="component">
 	<div class="browse-top">
-	<!-- <h1>Пильные диски Julia</h1> -->
-		<h1>
-			Пильные диски Julia		</h1>
+	<!-- Changes in h1 size-->
+		<h1 style="font-size: 27px;">
+			Пильные диски TENRYU		</h1>
 		
 			<div class="category_description">
-				<p style="text-align: justify;"><span lang="ru-BY"><img src="/images/slider/Seghe-circolari-in-HSS-1500x430.png" border="0" alt="" />Компания <strong>Julia Utensili</strong> - Италия, была основана в 1978 году. Пильные диски Julia — это высококачественный инструмент европейского качества из высококлассного европейского сырья, <span title="The close cooperation between our technical department and research centres, machine manufacturers and end users enables our engineers to recommend for each specific application the tool which provides the highest performance in terms of speed, feed rate and durability, all of which guarantee the lowest possible cutting">который обеспечивает максимальную производительность с точки зрения скорости, подачи и долговечности, что гарантирует минимально возможную с</span><span title="cost.">тоимость одного реза. Данный инструмент имеет инновационные покрытия, наносимые методом <span>физического осаждения пара</span>. </span></span></p>
-<p style="text-align: justify;"><span lang="ru-BY"><span title="cost.">Каталог пильных дисков Julia (HSS): <span lang="ru-BY"><a href="/images/CatalogoJuliaHss.pdf"><img src="/media/com_spdownload/images/mime-icon-32/pdf.png" border="0" width="29" height="29" /></a></span><a href="/images/CatalogoJuliaHss.pdf"><span title="CatalogoJuliaHss.pdf">CatalogoJuliaHss.pdf</span></a><br /></span></span></p>
-<p style="text-align: justify;"><span lang="ru-BY"><span title="cost.">Так же компания производит пильные диски из твердого сплава и металлокерамики (Cermet) для резки стальных труб и металлических профилей сплошного сечения. Полный цикл производства пил от заготовки до конечного продукта гарантирует высокое качество. Так как пилы имеют дополнительные покрытия это гарантирует максимальную производительность и высокую стойкость. </span></span></p>
-<p style="text-align: justify;"><span lang="ru-BY"><span title="cost.">Каталог пильных дисков Julia (Ctrmet): <a href="/images/juliahm_eng_2014_br.pdf"><img src="/media/com_spdownload/images/mime-icon-32/pdf.png" border="0" /><span title="juliahm_eng_2014_br.pdf">juliahm_eng_2014_br.pdf</span></a><br /></span></span></p>			</div>
-		<div class="clear"></div>
+				<p><img src="/images/slider/imgonline-com-ua-Resize-alXOwepy62iOB  .jpg" style="margin-top: 5px;"/></p>
+    <!-- Increased font-size, adding margins -->
+<p style="text-align: justify; font-size: 17px; margin-top: 25px;">Японская компания ТЕНРЮ Сейкё Мфг. Ко., Лтд. - всемирно известный производитель высококачественных дисковых пил. Год основания компании - 1910.</p>
+<p style="text-align: justify; font-size: 17px;">За более чем 100-летнюю историю, компания Тенрю накопила богатый опыт и ноу-хау в области резки различных материалов, а также заслужила доверие многих предприятий во всем мире.</p>
+<p style="text-align: justify; font-size: 17px;">Основным видом деятельности компании является - производство дисковых пил с твердосплавными напайками или, как их еще называют, ТСТ-пил (TCT = tungsten carbide tip).  </p>
+<p style="text-align: justify; font-size: 17px;">TENRYU предлагает самые экономичные и высокопроизводительные дисковые пилы для Вашего производства.</p>
+<p> <span style="text-align: justify; font-size: 17px;">Каталог продукции:</span> <a href="/images/vlogenia/20170725TenryuCutToolsRUS.pdf"><img src="/media/com_spdownload/images/mime-icon-32/pdf.png"  /><span title="20170725TenryuCutToolsRUS.pdf">20170725TenryuCutToolsRUS.pdf</span></a></p>			</div>
+
+<div class="clear"></div>
 		
-	</div>
-
-<div class="browse-view">
-				
-		
-		<div class="clear"></div>
-
-			<!--noindex-->
-			<div class="orderby-displaynumber">
-			<div class="span6">
-			<div style="display:bloack;float:left;font-size:14px"></div>
-			<div style="display:bloack;float:left">	<div class="orderlistcontainer"><div class="title">Сортировать по</div><div class="activeOrder"><a title=" +/-" href="/pilnye-diski-julia/orderDesc">Название  +/-</a></div></div></div>
-			</div>
-			<div class="span6">
-				<div class="display-number">
-Показано 1 - 20 из 20<br/><select name="" class="inputbox" size="1" onchange="window.top.location.href=this.options[this.selectedIndex].value">
-	<option value="/pilnye-diski-julia/results,1-30" selected="selected">30</option>
-	<option value="/pilnye-diski-julia/results,1-60">60</option>
-	<option value="/pilnye-diski-julia/results,1-80">80</option>
-	<option value="/pilnye-diski-julia/results,1-120">120</option>
-	<option value="/pilnye-diski-julia/results,1-200">200</option>
-	<option value="/pilnye-diski-julia/results,1-300">300</option>
-</select>
-</div>
-				<!-- <div class="vm-pagination pagination">
-										<span style="float:right"></span>
-				</div> -->
-			</div>
-			<div class="clear"></div>
-		</div> <!-- end of orderby-displaynumber -->
-	<!--/noindex-->
-				
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1744_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Высокоточные диски для обработки драгоценных металлов, форма зуба &quot;А&quot;" rel="vm-additional-images" href="/pilnye-diski-julia/vysokotochnye-diski-dlya-obrabotki-dragotsennykh-metallov-forma-zuba-a.htm">
-						<img src="/images/stories/virtuemart/product/resized/julia_taglio-oreficeria_600x600_500x500.png" alt="julia_taglio-oreficeria_600x600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/vysokotochnye-diski-dlya-obrabotki-dragotsennykh-metallov-forma-zuba-a.htm" >Высокоточные диски для обработки драгоценных металлов, форма зуба "А"</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/vysokotochnye-diski-dlya-obrabotki-dragotsennykh-metallov-forma-zuba-a.htm">
-						Высокоточные диски для обработки драгоценных металлов, форма зуба &quot;А&quot;					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/vysokotochnye-diski-dlya-obrabotki-dragotsennykh-metallov-forma-zuba-a.htm" title="Высокоточные диски для обработки драгоценных металлов, форма зуба &quot;А&quot;" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1751_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Дисковая пила для винтов и подшипников HSS" rel="vm-additional-images" href="/pilnye-diski-julia/diskovaya-pila-dlya-vintov-i-podshipnikov.htm">
-						<img src="/images/stories/virtuemart/product/resized/julia-utensili_taglio-bulloni-600x600_500x500.png" alt="julia-utensili_taglio-bulloni-600x600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/diskovaya-pila-dlya-vintov-i-podshipnikov.htm" >Дисковая пила для винтов и подшипников HSS</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/diskovaya-pila-dlya-vintov-i-podshipnikov.htm">
-						Дисковая пила для винтов и подшипников HSS					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/diskovaya-pila-dlya-vintov-i-podshipnikov.htm" title="Дисковая пила для винтов и подшипников HSS" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 ">
-			<div class="spacer">
-			<div style="display:none;" id="1760_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Дисковые ножи для картона, кожи, резиновых труб." rel="vm-additional-images" href="/pilnye-diski-julia/diskovye-nozhi-dlya-kartona-kozhi-rezinovykh-trub.htm">
-						<img src="/images/stories/virtuemart/product/resized/circular-knives_500x500.png" alt="circular-knives" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/diskovye-nozhi-dlya-kartona-kozhi-rezinovykh-trub.htm" >Дисковые ножи для картона, кожи, резиновых труб.</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/diskovye-nozhi-dlya-kartona-kozhi-rezinovykh-trub.htm">
-						Дисковые ножи для картона, кожи, резиновых труб.					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/diskovye-nozhi-dlya-kartona-kozhi-rezinovykh-trub.htm" title="Дисковые ножи для картона, кожи, резиновых труб." class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-					<div class="horizontal-separator"></div>
-						
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1743_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Дисковые пилы HSS DIN 1837 A – 1838 B, BW – 1838 C" rel="vm-additional-images" href="/pilnye-diski-julia/diskovye-pily-din-1837-a-1838-b-bw.htm">
-						<img src="/images/stories/virtuemart/product/resized/din-hss-e-hm600_500x500.png" alt="din-hss-e-hm600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/diskovye-pily-din-1837-a-1838-b-bw.htm" >Дисковые пилы HSS DIN 1837 A – 1838 B, BW – 1838 C</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/diskovye-pily-din-1837-a-1838-b-bw.htm">
-						Дисковые пилы HSS DIN 1837 A – 1838 B, BW – 1838 C					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/diskovye-pily-din-1837-a-1838-b-bw.htm" title="Дисковые пилы HSS DIN 1837 A – 1838 B, BW – 1838 C" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1731_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Дисковые пилы HSS-Co5" rel="vm-additional-images" href="/pilnye-diski-julia/diskovye-frezy-hss-co5.htm">
-						<img src="/images/stories/virtuemart/product/resized/hss-co5_500x500.png" alt="hss-co5" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/diskovye-frezy-hss-co5.htm" >Дисковые пилы HSS-Co5</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/diskovye-frezy-hss-co5.htm">
-						Дисковые пилы HSS-Co5					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/diskovye-frezy-hss-co5.htm" title="Дисковые пилы HSS-Co5" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 ">
-			<div class="spacer">
-			<div style="display:none;" id="1730_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Дисковые пилы HSS-DMo5" rel="vm-additional-images" href="/pilnye-diski-julia/diskovye-frezy-hss-dmo5.htm">
-						<img src="/images/stories/virtuemart/product/resized/dmo5_600x6001_500x500.jpg" alt="dmo5_600x6001" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/diskovye-frezy-hss-dmo5.htm" >Дисковые пилы HSS-DMo5</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/diskovye-frezy-hss-dmo5.htm">
-						Дисковые пилы HSS-DMo5					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/diskovye-frezy-hss-dmo5.htm" title="Дисковые пилы HSS-DMo5" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-					<div class="horizontal-separator"></div>
-						
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1750_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пилы с напайками из твердого сплава HM для сендвич панелей и цветных металлов" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-frezy-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-dlya-tsvetnykh-metallov.htm">
-						<img src="/images/stories/virtuemart/product/resized/hm-saws-for-cutting-alloys_500x500.png" alt="hm-saws-for-cutting-alloys" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-frezy-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-dlya-tsvetnykh-metallov.htm" >Отрезные пилы с напайками из твердого сплава HM для сендвич панелей и цветных металлов</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-frezy-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-dlya-tsvetnykh-metallov.htm">
-						Отрезные пилы с напайками из твердого сплава HM для сендвич панелей и цветных металлов					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-frezy-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-dlya-tsvetnykh-metallov.htm" title="Отрезные пилы с напайками из твердого сплава HM для сендвич панелей и цветных металлов" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1757_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики DISCOVERY" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-discovery.htm">
-						<img src="/images/stories/virtuemart/product/resized/discovery-600x600_500x500.png" alt="discovery-600x600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-discovery.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики DISCOVERY</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-discovery.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики DISCOVERY					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-discovery.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики DISCOVERY" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 ">
-			<div class="spacer">
-			<div style="display:none;" id="1745_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики FLYTEK RAPTOR HM" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-diskovye-pily-s-napajkami-iz-tverdogo-splava-i-metallokeramiki.htm">
-						<img src="/images/stories/virtuemart/product/resized/flytek-raptor_600x600new-1_500x500.png" alt="flytek-raptor_600x600new-1" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-diskovye-pily-s-napajkami-iz-tverdogo-splava-i-metallokeramiki.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики FLYTEK RAPTOR HM</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-diskovye-pily-s-napajkami-iz-tverdogo-splava-i-metallokeramiki.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики FLYTEK RAPTOR HM					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-diskovye-pily-s-napajkami-iz-tverdogo-splava-i-metallokeramiki.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики FLYTEK RAPTOR HM" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-					<div class="horizontal-separator"></div>
-						
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1756_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики JOINTEK INTRUDER" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-jointek-intruder.htm">
-						<img src="/images/stories/virtuemart/product/resized/jointek-intruder_500x500.png" alt="jointek-intruder" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-jointek-intruder.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики JOINTEK INTRUDER</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-jointek-intruder.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики JOINTEK INTRUDER					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-jointek-intruder.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики JOINTEK INTRUDER" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1748_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики ROTOTEK HORNET HM" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-rototek-hornet-hm.htm">
-						<img src="/images/stories/virtuemart/product/resized/rototek-hornet_500x500.png" alt="rototek-hornet" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-rototek-hornet-hm.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики ROTOTEK HORNET HM</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-rototek-hornet-hm.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики ROTOTEK HORNET HM					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-rototek-hornet-hm.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики ROTOTEK HORNET HM" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 ">
-			<div class="spacer">
-			<div style="display:none;" id="1746_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK MIRAGE HM" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-mirage-hm.htm">
-						<img src="/images/stories/virtuemart/product/resized/stahltek-mirage_500x500.png" alt="stahltek-mirage" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-mirage-hm.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK MIRAGE HM</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-mirage-hm.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK MIRAGE HM					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-mirage-hm.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK MIRAGE HM" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-					<div class="horizontal-separator"></div>
-						
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1749_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK TORNADO Cermet" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-tornado-cermet.htm">
-						<img src="/images/stories/virtuemart/product/resized/stahltek-tornado_500x500.png" alt="stahltek-tornado" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-tornado-cermet.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK TORNADO Cermet</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-tornado-cermet.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK TORNADO Cermet					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-stahltek-tornado-cermet.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики STAHLTEK TORNADO Cermet" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1747_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEC PHANTOM HM" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotec-phantom-hm.htm">
-						<img src="/images/stories/virtuemart/product/resized/tubotek-phantom_600x600_500x500.png" alt="tubotek-phantom_600x600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotec-phantom-hm.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEC PHANTOM HM</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotec-phantom-hm.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEC PHANTOM HM					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotec-phantom-hm.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEC PHANTOM HM" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 ">
-			<div class="spacer">
-			<div style="display:none;" id="1755_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEK FIGHTER" rel="vm-additional-images" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotek-fighter.htm">
-						<img src="/images/stories/virtuemart/product/resized/tubotek-fighter_500x500.png" alt="tubotek-fighter" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotek-fighter.htm" >Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEK FIGHTER</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotek-fighter.htm">
-						Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEK FIGHTER					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/otreznye-pilnye-diski-s-napajkami-iz-tverdogo-splava-i-metallokeramiki-tubotek-fighter.htm" title="Отрезные пильные диски с напайками из твердого сплава и металлокерамики TUBOTEK FIGHTER" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-					<div class="horizontal-separator"></div>
-						
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1753_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Пильные диски HSS - Evolution" rel="vm-additional-images" href="/pilnye-diski-julia/pilnye-diski-hss-evolution.htm">
-						<img src="/images/stories/virtuemart/product/resized/hss-evolution-600x600_500x500.png" alt="hss-evolution-600x600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/pilnye-diski-hss-evolution.htm" >Пильные диски HSS - Evolution</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/pilnye-diski-hss-evolution.htm">
-						Пильные диски HSS - Evolution					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/pilnye-diski-hss-evolution.htm" title="Пильные диски HSS - Evolution" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1754_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Пильные диски HSS - Ultra" rel="vm-additional-images" href="/pilnye-diski-julia/pilnye-diski-hss-ultra.htm">
-						<img src="/images/stories/virtuemart/product/resized/hss-ultra-600x600_500x500.png" alt="hss-ultra-600x600" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/pilnye-diski-hss-ultra.htm" >Пильные диски HSS - Ultra</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/pilnye-diski-hss-ultra.htm">
-						Пильные диски HSS - Ultra					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/pilnye-diski-hss-ultra.htm" title="Пильные диски HSS - Ultra" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 ">
-			<div class="spacer">
-			<div style="display:none;" id="1758_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Пильные диски с твердосплавными напайками HM для сухой резки стали" rel="vm-additional-images" href="/pilnye-diski-julia/pilnye-diski-s-tverdosplavnymi-napajkami-hm-dlya-sukhoj-rezki-stali.htm">
-						<img src="/images/stories/virtuemart/product/resized/lame-dry-cut-low-res_500x500.jpg" alt="lame-dry-cut-low-res" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/pilnye-diski-s-tverdosplavnymi-napajkami-hm-dlya-sukhoj-rezki-stali.htm" >Пильные диски с твердосплавными напайками HM для сухой резки стали</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/pilnye-diski-s-tverdosplavnymi-napajkami-hm-dlya-sukhoj-rezki-stali.htm">
-						Пильные диски с твердосплавными напайками HM для сухой резки стали					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/pilnye-diski-s-tverdosplavnymi-napajkami-hm-dlya-sukhoj-rezki-stali.htm" title="Пильные диски с твердосплавными напайками HM для сухой резки стали" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-					<div class="horizontal-separator"></div>
-						
-			
-			
-			
-	<div class="row-fluid">
-			<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1759_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Пильные полотна для туалетной бумаги и ткани" rel="vm-additional-images" href="/pilnye-diski-julia/pilnye-polotna-dlya-tualetnoj-bumagi-i-tkani.htm">
-						<img src="/images/stories/virtuemart/product/resized/carta-igienica-quadrata_500x500.png" alt="carta-igienica-quadrata" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/pilnye-polotna-dlya-tualetnoj-bumagi-i-tkani.htm" >Пильные полотна для туалетной бумаги и ткани</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/pilnye-polotna-dlya-tualetnoj-bumagi-i-tkani.htm">
-						Пильные полотна для туалетной бумаги и ткани					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/pilnye-polotna-dlya-tualetnoj-bumagi-i-tkani.htm" title="Пильные полотна для туалетной бумаги и ткани" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-				<div class="product ot-product  span4 vertical-separator">
-			<div class="spacer">
-			<div style="display:none;" id="1752_bvmpb_mod" class="product_badge"></div>
-				<div class="product-image">
-					<a title="Твердосплавные дисковые пилы DIN 1837 A – 1838 B" rel="vm-additional-images" href="/pilnye-diski-julia/tverdosplavnye-diskovye-pily-din-1837-a-1838-b.htm">
-						<img src="/images/stories/virtuemart/product/resized/seghe-din-hm-din-1837a–1838b_500x500.png" alt="seghe-din-hm-din-1837a–1838b" class="browseProductImage" />					</a>
-
-					<!-- The "Average Customer Rating" Part -->
-														</div>
-				<div class="clear"></div>
-				<div class="product-detail text-left">
-					<!-- <h4 class="product-name">
-						<a href="/pilnye-diski-julia/tverdosplavnye-diskovye-pily-din-1837-a-1838-b.htm" >Твердосплавные дисковые пилы DIN 1837 A – 1838 B</a>					</h4> -->
-					<a class="product-name" href="/pilnye-diski-julia/tverdosplavnye-diskovye-pily-din-1837-a-1838-b.htm">
-						Твердосплавные дисковые пилы DIN 1837 A – 1838 B					</a>
-					<div class="clear"></div>
-				
-				
-
-
-				
-				
-					
-				</div>
-				<div class="clear"></div>
-			<div class="product-cart-bar">
-										<div class="product-addtocart pull-right">
-						<!--<p>-->
-						<a href="/pilnye-diski-julia/tverdosplavnye-diskovye-pily-din-1837-a-1838-b.htm" title="Твердосплавные дисковые пилы DIN 1837 A – 1838 B" class="product-details"><!--noindex--><span>Подробнее</span><!--/noindex--></a>						<!--</p>-->
-					</div>
-					<div class="clear"></div>
-				</div>
-			</div>
-			<!-- end of spacer -->
-		</div> <!-- end of product -->
-					<div class="clear"></div>
-   </div> <!-- end of row -->
-			
-<hr/>
-<!--noindex-->
-<div class="vm-pagination pagination pagination-mini pagination-centered"><span style="float:right"></span></div>
-<!--/noindex-->
-
-
-	</div><!-- end browse-view -->
-</div>
 </div>
 
-</div>
-</div>										<!--noindex--><!--/noindex-->
-				</div>
-			</div>
-			
-							<div class="oBottomBlock">
-					<div class="container">
-						<div class="oPosBlock row-fluid bottom1">
-<div class="oPos bottom1-1 span12 visible-phone visible-tablet visible-desktop">
-<div id="mod-124" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
+<div class="browse-view">			
+</div><!-- end browse-view -->
+</div> </div></div></div><!--noindex--><!--/noindex--></div></div>
 
-<div class="custom"  >
-	<p>Общество с ограниченной ответственностью «ЗТМ Групп», <strong>УНП</strong> 192656410, <strong>ОКПО</strong> 382881275000   <strong>Юридический адрес: </strong>220118, Республика Беларусь, г. Минск, ул. Крупской, 17, помещение 40/С.</p></div>
-</div></div></div>
-</div>
-</div>																	</div>
-				</div>
+<!-- Changes in style -->
+<div class="oBottomBlock">
+		<div class="container">
+		<div class="oPosBlock row-fluid bottom1">
+        <div class="oPos bottom1-1 span12 visible-phone visible-tablet visible-desktop">
+        <div id="mod-124" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
+        <div class="custom">
+	    <p style="font-size: 12px; text-align: center;">Общество с ограниченной ответственностью «ЗТМ Групп», <strong>УНП</strong> 192656410, <strong>ОКПО</strong> 382881275000   <strong>Юридический адрес: </strong>220118, Республика Беларусь, г. Минск, ул. Крупской, 17, помещение 40/С.</p></div>
+        </div></div></div>
+</div></div></div></div>
 						
-							<div class="oFooterBlock">
-					<div class="container">
-						<!--noindex--><div class="oPosBlock row-fluid footer1">
+<div class="oFooterBlock">
+<div class="container">
+<!--noindex--><div class="oPosBlock row-fluid footer1">
 <div class="oPos footer1-1 span9 visible-phone visible-tablet visible-desktop">
 <div id="mod-112" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
 
+<!-- Changes in margin and style -->
 <div class="custom"  >
-	<p><strong>2017 © ООО "ЗТМ Групп" - первый поставщик металлорежущего, пневматического инструмента и станочной оснастки<br /></strong></p></div>
+	<p style="margin-top: 21px;"><strong>2017 © ООО "ЗТМ Групп" - первый поставщик металлорежущего, пневматического инструмента и станочной оснастки<br /></strong></p></div>
 </div></div></div>
 </div>
 <div class="oPos footer1-2 span3 visible-phone visible-tablet visible-desktop">
 <div id="mod-127" class="ot-mod-outer standard module"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix"><!-- BEGIN: Custom advanced (www.jtricks.com) -->
-<div align="right" style="padding:10px 0px 0px 0px">
+<div style="padding:33px 33px 0px 215px; width:90px">
 
 <!--LiveInternet counter--><script type="text/javascript">
 document.write("<a href='//www.liveinternet.ru/click' "+
@@ -1431,38 +708,21 @@ screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
 "border='0' width='88' height='15'><\/a>")
 </script><!--/LiveInternet-->
 
-
-
-
-
-
-
-
 </div><!-- END: Custom advanced (www.jtricks.com) -->
 </div></div></div>
 </div>
 </div><!--/noindex-->
 						
-						<a style="  position: relative; top: -10px; width: 36px;" target="_blank" href="http://www.ready.by" rel="nofollow"><img border="0" alt="создание сайтов в минске" src="/ready.png"></a>
-
-						
-
-						<div class="oPosBlock row-fluid footer2">
+<a style="  position: relative; top: -3px; width: 36px;" target="_blank" href="http://www.ready.by" rel="nofollow"><img alt="создание сайтов в минске" src="/ready.png"></a>
+<div class="oPosBlock row-fluid footer2">
 <div class="oPos footer2-1 span12 visible-phone visible-tablet visible-desktop">
 <div id="mod-117" class="ot-mod-outer standard module text-uppercase"><div class="ot-mod-inner clearfix"><div class="mod-content clearfix">
 
 <div class="custom text-uppercase"  >
-	<div class="gotop"><a class="ot_scrollable" href="#ot-body">наверх</a></div></div>
+	<div class ="gotop" style="margin-top: 16px; margin-left: 45px;"><a class="ot_scrollable" href="#ot-body">наверх</a></div></div>
 </div></div></div>
-</div>
-</div>					</div>
-				</div>
-					</div>
-	</div>
-	<div class="oTemplateControl"></div>
-	
-
-
-	
+</div></div></div>
+</div></div></div>
+<div class="oTemplateControl"></div>
 </body>
 </html>
