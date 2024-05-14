@@ -263,7 +263,7 @@ faceboxHtml = '<div id="facebox" style="display:none;"><div class="popup"><div c
                             <div id="search-container">
                                 <input type="text" id="search-bar" placeholder="Поиск..." onkeyup="searchFunction()">
                                 <div id="search-icon-container">
-                                    <img id="search-icon" src="c:\Users\troble_tori\Downloads\magnifiying-glass_93642.png" >
+                                    <img id="search-icon" src="magnifiying-glass_93642.png" >
                                 </div>
                             </div>
                             
